@@ -18,8 +18,9 @@ Focused on real-world exploitation, not surface-level scanning.
 
 ## 🛠️ Arsenal
 
-Nmap • Burp Suite • Wireshark • Metasploit
-Gobuster • Dirsearch • Linux • Bash • Python
+Nmap • Burp Suite • Wireshark • Metasploit  
+Gobuster • Dirsearch  
+Linux • Bash • Python
 
 ---
 
