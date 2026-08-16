@@ -234,12 +234,20 @@ Practical Security Engineering
 
 <div align="center">
 
-<a href="mailto:satarup69@gmail.com">
-<img src="https://img.shields.io/badge/Email-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
+<a href="https://github.com/satarup-mondal">
+<img src="https://img.shields.io/badge/GitHub-satarup--mondal-111111?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://github.com/satarup-mondal">
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://instagram.com/sata.n0xx">
+<img src="https://img.shields.io/badge/Instagram-sata.n0xx-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="https://wa.me/916901099890">
+<img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<a href="mailto:satarup69@gmail.com">
+<img src="https://img.shields.io/badge/Email-satarup69%40gmail.com-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
 </a>
 
 </div>
