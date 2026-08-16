@@ -184,13 +184,7 @@ I care about **why an attack works**, not just which command makes it work.
 
 ---
 
-# `🐍 CONTRIBUTION MATRIX`
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/satarup-mondal/satarup-mondal/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
-
-</div>
 
 ---
 
