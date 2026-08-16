@@ -136,44 +136,7 @@ Development
 
 ---
 
-# `🚀 WHAT I'M BUILDING`
 
-### 🔴 Recon & Automation
-
-Security automation scripts designed to reduce repetitive reconnaissance work.
-
-```text
-Target
-  │
-  ├── DNS Enumeration
-  ├── Port Scanning
-  ├── Service Detection
-  ├── Directory Discovery
-  ├── Technology Fingerprinting
-  └── Result Aggregation
-           │
-           ▼
-      Attack Surface
-```
-
-### 🧪 CTF Writeups
-
-Step-by-step breakdowns of:
-
-* Initial access
-* Enumeration
-* Vulnerability discovery
-* Exploitation
-* Credential discovery
-* Privilege escalation
-* Root/system compromise
-* Lessons learned
-
-### 🛠️ Security Tools
-
-Building custom tools instead of relying exclusively on existing frameworks.
-
----
 
 # `🧠 MINDSET`
 
