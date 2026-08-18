@@ -1,166 +1,160 @@
 <div align="center">
 
-# `> SATARUP MONDAL_`
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=800&color=00FF9C&center=true&vCenter=true&width=750&lines=Cybersecurity+%7C+Penetration+Testing+%7C+Red+Team;Breaking+systems+to+understand+how+they+work;Recon+%E2%86%92+Enumeration+%E2%86%92+Exploitation+%E2%86%92+Privilege+Escalation;Building+tools%2C+automating+recon%2C+documenting+attack+paths" alt="Typing SVG" />
+<img src="./assets/cyber-terminal.gif" width="900" alt="Cybersecurity terminal animation">
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:06141A,100:00FF9C&height=180&section=header&text=CYBERSECURITY%20%2F%2F%20DEVELOPER&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2200&pause=700&color=00FF9C&center=true&vCenter=true&width=850&lines=Cybersecurity+%7C+Penetration+Testing+%7C+Red+Team;Python+%7C+Automation+%7C+Linux+%7C+Cloud+Security;Recon+%E2%86%92+Enumeration+%E2%86%92+Exploitation+%E2%86%92+Privilege+Escalation;Building+tools+%7C+Breaking+systems+%7C+Understanding+the+why" alt="Typing animation">
+
+<br><br>
+
+<a href="https://github.com/satarup-mondal"><img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://instagram.com/sata.n0xx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://wa.me/916901099890"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="mailto:satarup69@gmail.com"><img src="https://img.shields.io/badge/Email-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"></a>
 
 </div>
 
 ---
 
-## `whoami`
+## `> whoami`
 
-```bash
+```text
 ┌──(satarup㉿kali)-[~]
 └─$ whoami
 
-Cybersecurity enthusiast
-Penetration Tester
-Red Team learner
-Security Tool Builder
-Developer
+Cybersecurity Developer
+Penetration Testing Learner
+Red Team Enthusiast
+Security Automation Builder
+Linux / Cloud Security Explorer
 ```
 
-I don't just run security tools.
-
-I want to understand **what happens underneath them** — from reconnaissance and enumeration to exploitation, privilege escalation and post-exploitation.
+I don't just run tools. I want to understand the **mechanism behind the attack** — then automate the repetitive parts.
 
 ```text
-Recon
-  ↓
-Enumeration
-  ↓
-Vulnerability Analysis
-  ↓
-Exploitation
-  ↓
-Privilege Escalation
-  ↓
-Post Exploitation
-  ↓
-Documentation
+RECON → ENUMERATION → VULN ANALYSIS → EXPLOITATION
+                                      ↓
+                         PRIVILEGE ESCALATION
+                                      ↓
+                              DOCUMENTATION
 ```
 
-> **Understand the attack path. Understand the system. Break it. Fix it.**
+> **Understand the system. Understand the attack path. Build better defenses.**
 
 ---
 
-# `⚔️ SECURITY`
+# `⚔️ SECURITY SKILLS`
 
-### Offensive Security
+<div align="center">
 
-| Area                 | Focus                                     |
-| -------------------- | ----------------------------------------- |
-| 🌐 Web Security      | OWASP Top 10, Web Enumeration, Burp Suite |
-| 🔎 Recon             | Nmap, Gobuster, Dirsearch, OSINT          |
-| 🖥️ Network Security | Enumeration, Services, Protocol Analysis  |
-| 🐧 Linux             | Enumeration, Privilege Escalation, Bash   |
-| 💥 Exploitation      | Metasploit, Searchsploit, CVE Analysis    |
-| 🔐 Password Security | Hashcat, John the Ripper, Wordlists       |
-| 🧪 CTF               | TryHackMe, HackTheBox                     |
-| 📡 Traffic Analysis  | Wireshark, Network Enumeration            |
+<img src="https://skillicons.dev/icons?i=linux,kali,python,bash,c,rust,js,react,nodejs,docker,kubernetes,git,github,vscode" />
+
+</div>
+
+### 🔴 Offensive Security
+`Nmap` · `Burp Suite` · `Metasploit` · `Gobuster` · `Dirsearch` · `Nikto` · `SQLmap` · `ffuf` · `Feroxbuster` · `Nuclei`
+
+### 🌐 Web & API Security
+`OWASP Top 10` · `HTTP/S` · `REST APIs` · `Authentication` · `Authorization` · `Directory Discovery` · `Request Analysis`
+
+### 🛰️ Network Security
+`Wireshark` · `tcpdump` · `Hping3` · `Netcat` · `Nmap NSE` · `DNS` · `SMB` · `NetBIOS` · `LLMNR`
+
+### 🪟 Windows / AD
+`Impacket` · `NetExec` · `Evil-WinRM` · `enum4linux-ng` · `smbclient` · `Responder` · `Kerbrute`
+
+### 🔐 Credential & Hash Testing
+`Hashcat` · `John the Ripper` · `Hydra` · `RockYou` · `CVE Research`
+
+### 🔎 OSINT / Recon
+`Maltego` · `Amass` · `Subfinder` · `DNS Enumeration` · `Subdomain Discovery` · `Google Dorks`
+
+---
+
+# `🤖 SECURITY AUTOMATION`
+
+```python
+class ReconEngine:
+
+    def run(self, target):
+        scope = self.validate_scope(target)
+        dns = self.enumerate_dns(scope)
+        ports = self.scan_ports(scope)
+        services = self.identify_services(ports)
+        web = self.fingerprint_web(services)
+
+        return self.build_report(
+            dns=dns,
+            ports=ports,
+            services=services,
+            web=web
+        )
+```
+
+**Automation stack:** `Python` · `Bash` · `AsyncIO` · `REST APIs` · `JSON` · `Regex` · `Linux CLI` · `GitHub Actions`
+
+---
+
+# `☁️ DEVOPS / CLOUD / CONTAINERS`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,githubactions" />
+
+</div>
+
+`Docker` · `Kubernetes` · `Linux` · `GitHub Actions` · `CI/CD` · `Container Security`
 
 ---
 
 # `💻 DEVELOPMENT`
 
-### Languages
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=c,python,bash,js,rust" />
-
-</p>
-
-### Development
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,nextjs,git,github,vscode" />
-
-</p>
-
-### Security Environment
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=linux,kali,docker" />
-
-</p>
+| Area | Stack |
+|---|---|
+| 🐍 Security Automation | Python, Bash |
+| ⚙️ Systems | C, Rust, Linux |
+| 🌐 Web | JavaScript, React, Node.js, Express, Next.js |
+| 🐳 Infrastructure | Docker, Kubernetes |
+| 🔧 Tooling | Git, GitHub Actions, VS Code |
 
 ---
 
-# `🧰 ARSENAL`
+# `🚀 FEATURED BUILD`
+
+## 🔴 ReconX — Reconnaissance & Automation Platform
 
 ```text
-Recon
-├── Nmap
-├── Gobuster
-├── Dirsearch
-├── Nikto
-└── Maltego
-
-Web
-├── Burp Suite
-├── OWASP methodology
-└── Web enumeration
-
-Network
-├── Wireshark
-├── Hping3
-├── Nmap NSE
-└── Protocol analysis
-
-Exploitation
-├── Metasploit
-├── Searchsploit
-├── CVE research
-└── Manual exploitation
-
-Credential Attacks
-├── Hashcat
-├── John the Ripper
-└── Wordlists
-
-Development
-├── Python
-├── C
-├── JavaScript
-├── Rust
-└── Bash
+                    TARGET
+                      │
+             ┌────────┴────────┐
+             ↓                 ↓
+        DNS ENUM          PORT SCAN
+             │                 │
+             └────────┬────────┘
+                      ↓
+              SERVICE DETECTION
+                      ↓
+              HTTP FINGERPRINTING
+                      ↓
+             DIRECTORY DISCOVERY
+                      ↓
+                ATTACK SURFACE
+                      ↓
+                  REPORT / API
 ```
+
+> Turning repetitive reconnaissance into a repeatable security workflow.
 
 ---
 
+# `🧪 LABS / RESEARCH`
 
+`TryHackMe` · `Hack The Box` · `Metasploitable` · `OWASP vulnerable apps`
 
-# `🧠 MINDSET`
-
-```python
-def attacker_mindset(target):
-
-    recon(target)
-
-    enumerate(target)
-
-    identify_attack_surface(target)
-
-    find_weakness(target)
-
-    exploit(target)
-
-    escalate_privileges(target)
-
-    document_everything(target)
-
-    return "Understand the system."
+```text
+DISCOVER → UNDERSTAND → VALIDATE IN LAB → DOCUMENT → IMPROVE
 ```
-
-I care about **why an attack works**, not just which command makes it work.
 
 ---
 
@@ -168,64 +162,61 @@ I care about **why an attack works**, not just which command makes it work.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=satarup-mondal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF9C&icon_color=00FF9C&text_color=FFFFFF" height="180"/>
+<img src="https://img.shields.io/github/followers/satarup-mondal?style=for-the-badge&logo=github&label=FOLLOWERS&color=00FF9C&labelColor=111111">
+<img src="https://img.shields.io/github/stars/satarup-mondal?style=for-the-badge&logo=github&label=STARS&color=00FF9C&labelColor=111111">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satarup-mondal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF9C&text_color=FFFFFF" height="180"/>
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=satarup-mondal&theme=dark&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" alt="GitHub streak">
 
 </div>
 
-<br>
+---
+
+# `🐍 CONTRIBUTION MATRIX`
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=satarup-mondal&theme=tokyonight&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/satarup-mondal/satarup-mondal/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/satarup-mondal/satarup-mondal/output/github-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/satarup-mondal/satarup-mondal/output/github-snake-dark.svg">
+</picture>
 
 </div>
 
 ---
 
-
-
----
-
-# `🎯 CURRENT OBJECTIVES`
+# `🎯 ROADMAP`
 
 ```text
 [████████████████████] Cybersecurity Fundamentals
-
 [████████████████░░░░] Web Application Security
-
 [███████████████░░░░░] Network Security
-
 [██████████████░░░░░░] Linux Privilege Escalation
-
-[████████████░░░░░░░░] Red Teaming
-
-[███████████░░░░░░░░░] Security Automation
-
+[████████████░░░░░░░░] Security Automation
+[███████████░░░░░░░░░] Red Teaming
+[██████████░░░░░░░░░░] Cloud / Container Security
 [████████░░░░░░░░░░░░] Custom Security Tooling
 ```
 
 ---
 
-# `📂 PROJECT PHILOSOPHY`
+# `🧠 MINDSET`
 
-I prefer projects that answer one question:
+```python
+def security_engineer(target):
 
-> **"Can I automate this, understand this, or break this?"**
+    recon(target)
+    enumerate(target)
+    understand(target)
+    identify_weakness(target)
+    validate_in_lab(target)
+    automate_repeatable_work()
+    document_findings()
+    improve_defenses()
 
-That means building:
-
-```text
-Security Automation
-        +
-Offensive Security
-        +
-Programming
-        +
-System Understanding
-        =
-Practical Security Engineering
+    return "Understand before you exploit."
 ```
 
 ---
@@ -234,39 +225,13 @@ Practical Security Engineering
 
 <div align="center">
 
-<a href="https://github.com/satarup-mondal">
-<img src="https://img.shields.io/badge/GitHub-satarup--mondal-111111?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://github.com/satarup-mondal"><img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://instagram.com/sata.n0xx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://wa.me/916901099890"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="mailto:satarup69@gmail.com"><img src="https://img.shields.io/badge/Email-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"></a>
 
-<a href="https://instagram.com/sata.n0xx">
-<img src="https://img.shields.io/badge/Instagram-sata.n0xx-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
+<br><br>
 
-<a href="https://wa.me/916901099890">
-<img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-
-<a href="mailto:satarup69@gmail.com">
-<img src="https://img.shields.io/badge/Email-satarup69%40gmail.com-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-```text
-┌─────────────────────────────────────────────┐
-│                                             │
-│   "The goal isn't to know every tool.      │
-│    The goal is to understand the system."  │
-│                                             │
-└─────────────────────────────────────────────┘
-```
-
-### `SYSTEM STATUS: ONLINE`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,50:06141A,100:000000&height=100&section=footer"/>
+`BUILD. BREAK. UNDERSTAND. DEFEND.`
 
 </div>
