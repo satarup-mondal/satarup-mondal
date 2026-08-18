@@ -1,11 +1,10 @@
 <div align="center">
 
-<!-- Minimal gradient banner -->
+<!-- Soft Crimson Glow Banner -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6d28d9,100:f43f5e&height=120&section=header&text=CYBERSECURITY%20DEVELOPER&fontSize=32&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:030303,45:120000,75:450000,100:8B0000&height=120&section=header&text=CYBERSECURITY%20DEVELOPER&fontSize=32&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" />
 
 <br>
-
 <img src="./assets/kaneki.png" alt="Kaneki - Tokyo Ghoul" width="100%" />
 
 ◈ CONNECT
